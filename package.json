@@ -1,0 +1,25 @@
+{
+  "name": "pcs",
+  "version": "0.0.9",
+  "description": "baidu pcs",
+  "main": "pcs.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "",
+  "keywords": [
+    "pcs",
+    "baidu"
+  ],
+  "author": {
+    "name": "ft"
+  },
+  "license": "BSD",
+  "readme": "\tvar pcs = require('pcs.js');\r\n\t\r\n\t\r\n\tvar app = new pcs('3.9c520836e06d0877f67d587fa168e0ba.2592000.1363924921.3221671111-562182','/apps/yourappname/');\r\n\t//access_token & apppath is needed\r\n\r\n\tapi just finish below,no callback finish.\r\n\t\r\n\t//app.getQuota();\r\n\t\r\n\t//app.postFile(__dirname+'/截图.png','path/newname');\r\n\t\r\n\t//app.getFile('cmd.bat');\r\n\t\r\n\t//app.getMeta('/');\r\n\t\r\n\tapp.getList('/path');",
+  "readmeFilename": "readme.md",
+  "_id": "pcs@0.0.9",
+  "dist": {
+    "shasum": "9feac225c44200ba25f35d479eb769985c5be7aa"
+  },
+  "_from": "pcs@~0.0.7"
+}
